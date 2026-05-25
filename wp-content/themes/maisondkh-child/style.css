@@ -1,18 +1,30 @@
 /*
 Theme Name: MaisonDKH Child
-Theme URI: https://restaurant-gastronomie.alwaysdata.net/wordpress
-Description: Thème enfant pour le restaurant MaisonDKH - Groupe 1 Laboratoire 2
-Author: Groupe 1
 Template: twentytwentyfive
-Version: 1.0.0
-License: GNU General Public License v2 or later
-Text Domain: maisondkh-child
+Description: Thème enfant pour le restaurant gastronomique MaisonDKH
+Version: 1.0
+Author: Groupe 1 - Étudiante 2
 */
 
-/* Couleurs principales du restaurant */
+/* Charte graphique du restaurant */
 :root {
-    --couleur-principale: #8B0000;
-    --couleur-secondaire: #D4AF37;
-    --couleur-fond: #1a1a1a;
-    --couleur-texte: #333333;
+  --rouge-bordeaux: #8B0000;
+  --or-luxe: #D4AF37;
+  --creme: #FCF8F0;
+  --noir: #0f0f0c;
+}
+
+body {
+  background: var(--creme);
+  color: var(--noir);
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--noir);
+}
+
+.btn-primary {
+  background: var(--noir);
+  color: var(--or-luxe);
 }
