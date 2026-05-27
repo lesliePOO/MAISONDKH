@@ -4,3 +4,4 @@ Configuration sitemap XML - 8 sitemaps generes automatiquement par Yoast SEO
 Schema.org Restaurant configure - representation du site MaisonKDR dans Yoast SEO
 Balises meta page Accueil - titre et description optimises pour Google
 Balises meta page Menu - titre et description optimises pour Google
+Balises meta page Reservation - titre et description optimises pour Google
