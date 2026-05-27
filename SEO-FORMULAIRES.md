@@ -9,3 +9,4 @@ Style CSS formulaire reservation - couleurs or et noir MaisonKDR
 Schema.org Restaurant configure dans Yoast SEO
 Sitemap XML verifie - 8 sitemaps actifs et fonctionnels
 Notification email reservation configuree dans Contact Form 7
+Representation du site MaisonKDR configuree dans Yoast SEO
