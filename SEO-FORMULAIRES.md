@@ -7,3 +7,4 @@ Balises meta page Menu - titre et description optimises pour Google
 Balises meta page Reservation - titre et description optimises pour Google
 Style CSS formulaire reservation - couleurs or et noir MaisonKDR
 Schema.org Restaurant configure dans Yoast SEO
+Sitemap XML verifie - 8 sitemaps actifs et fonctionnels
