@@ -1,8 +1,9 @@
 <?php
 /**
  * Chargement du CSS du thème parent + CSS du thème enfant
+ * Thème enfant : MaisonKDR Child
  */
-function maisondhk_enqueue_styles() {
+function maisonkdr_enqueue_styles() {
     wp_enqueue_style(
         'parent-style',
         get_template_directory_uri() . '/style.css'
@@ -14,7 +15,7 @@ function maisondhk_enqueue_styles() {
         '1.0'
     );
 }
-add_action('wp_enqueue_scripts', 'maisondhk_enqueue_styles');
+add_action('wp_enqueue_scripts', 'maisonkdr_enqueue_styles');
 
 /**
  * Support images mises en avant
@@ -23,8 +24,9 @@ add_theme_support('post-thumbnails');
 
 /**
  * Custom Post Type : Plat
+ * Restaurant MaisonKDR — Groupe 1
  */
-function maisondkh_register_cpt_plat() {
+function maisonkdr_register_cpt_plat() {
     $labels = array(
         'name'               => 'Plats',
         'singular_name'      => 'Plat',
@@ -47,12 +49,13 @@ function maisondkh_register_cpt_plat() {
     );
     register_post_type('plat', $args);
 }
-add_action('init', 'maisondkh_register_cpt_plat');
+add_action('init', 'maisonkdr_register_cpt_plat');
 
 /**
  * Taxonomie : Catégorie de plat
+ * Catégories : Entrées, Plats, Desserts
  */
-function maisondkh_register_taxonomie_plat() {
+function maisonkdr_register_taxonomie_plat() {
     $labels = array(
         'name'              => 'Catégories de plats',
         'singular_name'     => 'Catégorie de plat',
@@ -70,4 +73,4 @@ function maisondkh_register_taxonomie_plat() {
     );
     register_taxonomy('categorie_plat', array('plat'), $args);
 }
-add_action('init', 'maisondkh_register_taxonomie_plat');
+add_action('init', 'maisonkdr_register_taxonomie_plat');
