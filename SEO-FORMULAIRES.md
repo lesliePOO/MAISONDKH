@@ -2,3 +2,4 @@
 Balises meta SEO configurees sur les pages Accueil, Rservation et Menu
 Configuration sitemap XML - 8 sitemaps generes automatiquement par Yoast SEO
 Schema.org Restaurant configure - representation du site MaisonKDR dans Yoast SEO
+Balises meta page Accueil - titre et description optimises pour Google
