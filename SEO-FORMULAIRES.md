@@ -5,3 +5,4 @@ Schema.org Restaurant configure - representation du site MaisonKDR dans Yoast SE
 Balises meta page Accueil - titre et description optimises pour Google
 Balises meta page Menu - titre et description optimises pour Google
 Balises meta page Reservation - titre et description optimises pour Google
+Style CSS formulaire reservation - couleurs or et noir MaisonKDR
