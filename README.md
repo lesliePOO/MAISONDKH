@@ -1,4 +1,4 @@
-# MaisonDKH — Restaurant Gastronomique
+# MaisonKDR — Restaurant Gastronomique
 
 Site WordPress d'un restaurant gastronomique fictif créé dans le cadre du Laboratoire 2 — Outils Complémentaires à la Programmation Web.
 
@@ -9,7 +9,7 @@ Site WordPress d'un restaurant gastronomique fictif créé dans le cadre du Labo
 - **Slogan** : Créez, savourez, partagez
 - **Site en ligne** : https://restaurant-gastronomie.alwaysdata.net/wordpress
 - **Admin WordPress** : https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-admin
-- **Dépôt GitHub** : https://github.com/lesliePOO/MAISONDKH
+- **Dépôt GitHub** : https://github.com/lesliePOO/MaisonKDR
 - **Hébergeur** : Alwaysdata (plan gratuit)
 - **WordPress** : Version 6.9.4
 - **Langue** : Français | Fuseau horaire : UTC+1 (Cameroun)
@@ -67,7 +67,7 @@ Aller dans Extensions → Ajouter une extension et installer :
 | Limit Login Attempts Reloaded | Sécurité connexion |
 
 ### Étape 5 — Activer le thème enfant
-1. Cloner le dépôt : `git clone https://github.com/lesliePOO/MAISONDKH.git`
+1. Cloner le dépôt : `git clone https://github.com/lesliePOO/MAISONKDR.git`
 2. Via FileZilla, se connecter au serveur FTP :
    - Hôte : `ftp-restaurant-gastronomie.alwaysdata.net`
    - Utilisateur : `restaurant-gastronomie`
