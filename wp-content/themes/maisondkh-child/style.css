@@ -28,3 +28,28 @@ h1, h2, h3 {
   background: var(--noir);
   color: var(--or-luxe);
 }
+
+/* ========================================
+   GALERIE DES PLATS
+   ======================================== */
+.wp-block-gallery {
+  gap: 12px !important;
+}
+
+.wp-block-gallery .wp-block-image img {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wp-block-gallery .wp-block-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* ========================================
+   CPT PLATS — ARCHIVE
+   ======================================== */
+.post-type-archive-plat .entry-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--or-luxe, #D4AF37);
+}

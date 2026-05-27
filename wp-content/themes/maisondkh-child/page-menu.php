@@ -16,7 +16,7 @@ Template Name: Menu
 
 <!-- NAVBAR -->
 <nav class="dkh-nav">
-  <a class="dkh-nav-logo" href="<?php echo home_url('/wordpress'); ?>">MaisonDKH</a>
+  <a class="dkh-nav-logo" href="<?php echo home_url('/wordpress'); ?>">MaisonKDR</a>
   <div class="dkh-nav-links">
     <a href="<?php echo home_url('/wordpress'); ?>">Accueil</a>
     <a href="<?php echo home_url('/wordpress/menu'); ?>" class="active">Menu</a>
@@ -44,7 +44,7 @@ Template Name: Menu
 
 <!-- FOOTER -->
 <footer class="dkh-footer">
-  <div class="dkh-footer-logo">MaisonDKH</div>
+  <div class="dkh-footer-logo">MaisonKDR</div>
   <div class="dkh-footer-slogan">Créez · Savourez · Partagez</div>
   <div class="dkh-footer-links">
     <a href="<?php echo home_url('/wordpress'); ?>">Accueil</a>
@@ -52,7 +52,7 @@ Template Name: Menu
     <a href="<?php echo home_url('/wordpress/reservation'); ?>">Réservation</a>
     <a href="<?php echo home_url('/wordpress/contact'); ?>">Contact</a>
   </div>
-  <div class="dkh-footer-copy">© 2026 MaisonDKH · Douala, Cameroun</div>
+  <div class="dkh-footer-copy">© 2026 MaisonKDR · Douala, Cameroun</div>
 </footer>
 
 <style>
@@ -166,7 +166,7 @@ const platsData = {
   ],
   "Vins & Cocktails": [
     { name: "Baileys", desc: "Liqueur irlandaise crémeuse au whisky et chocolat, servie sur glace.", price: 3500, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Baileys.jpg" },
-    { name: "Balafon cocktail", desc: "Cocktail signature MaisonDKH, rhum ambré, jus de fruits tropicaux, grenadine.", price: 3200, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Balafon-cocktail.jpg" },
+    { name: "Balafon cocktail", desc: "Cocktail signature MaisonKDR, rhum ambré, jus de fruits tropicaux, grenadine.", price: 3200, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Balafon-cocktail.jpg" },
     { name: "Blue Lagoon", desc: "Vodka, curaçao bleu, jus de citron frais, sucre de canne, soda.", price: 3800, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Blue-Lagoon.jpg" },
     { name: "Clares Hills", desc: "Vin blanc sec, notes fruitées et florales, servi frais.", price: 4000, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Clares-Hills.jpg" },
     { name: "Domaines des terres blanches", desc: "Vin blanc élégant, arômes de pêche blanche et de fleurs, finale minérale.", price: 4000, img: "https://restaurant-gastronomie.alwaysdata.net/wordpress/wp-content/uploads/2026/05/Domaines-des-terres-blanches.jpg" }
